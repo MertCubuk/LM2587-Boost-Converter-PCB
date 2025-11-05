@@ -57,11 +57,11 @@ Tasarımın ana amacı:
 
 | Görsel                               		          | Açıklama         |
 | :------------------------------------------------------ | :--------------- |
-| ![schematic](LM2587_BoostConverter_Schematic.png) 	  | Şematik görünümü |
+| ![schematic](LM2587_BoostConverter-1.png)	 	  | Şematik görünümü |
 | ![top2d](LM2587_BoostConverter_Top2D.png)  		  | PCB Top Layer    |
-| ![bottom2d](LM2587_BoostConverter_Bottom2D.png)	  | PCB Bottom Layer |
+| ![bottom2d](LM2587_BoostConverter_Bottom.png)	          | PCB Bottom Layer |
 | ![top](LM2587_BoostConverter_Top3D.png)     		  | 3D Üst Görünüm   |
-| ![bottom](LM2587_BoostConverter_Bottom3D.png)  	  | 3D Alt Görünüm   |
+| ![bottom](LM2587_BoostConverter_Top.png)		  | 3D Alt Görünüm   |
 
 
 
