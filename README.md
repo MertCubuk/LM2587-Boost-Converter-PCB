@@ -55,30 +55,41 @@ Tasarımın ana amacı:
 
 ## 🖼️ Görseller
 
-| Görsel                               		          | Açıklama         |
+| Görsel                               		                 | Açıklama         |
 | :------------------------------------------------------ | :--------------- |
-| ![schematic](LM2587_BoostConverter-1.png)	 	  | Şematik görünümü |
-| ![top2d](LM2587_BoostConverter_Top2D.png)  		  | PCB Top Layer    |
-| ![bottom2d](LM2587_BoostConverter_Bottom.png)	          | PCB Bottom Layer |
-| ![top](LM2587_BoostConverter_Top3D.png)     		  | 3D Üst Görünüm   |
-| ![bottom](LM2587_BoostConverter_Top.png)		  | 3D Alt Görünüm   |
+| ![schematic](./images/LM2587_BoostConverter-1.png)	 	   | Şematik görünümü |
+| ![top2d](./images/LM2587_BoostConverter_Top2D.png)  		  | PCB Top Layer    |
+| ![bottom2d](./images/LM2587_BoostConverter_Bottom.png)	 | PCB Bottom Layer |
+| ![top](./images/LM2587_BoostConverter_Top3D.png)     		 | 3D Üst Görünüm   |
+| ![bottom](./images/LM2587_BoostConverter_Top.png)		     | 3D Alt Görünüm   |
 
 
 
 📚 Öğrenilenler / Kazanımlar
 
+
 -LM2587 boost topolojisi ve feedback direnç hesaplaması
+
 -Yüksek akım yollarında layout planlama (SW node kısaltma, loop alanı küçültme)
+
 -Giriş–çıkış kondansatörlerinin konumlandırılma kritikleri
+
 -Uygulama notu/datasheet inceleyerek PCB tasarımını birebir aktarma
+
 -GND akım yollarını ayırma ve star ground konsepti
+
 -Altium’da 3D model yönetimi, tasarım kuralları (DRC) ve Gerber oluşturma
+
 
 🧠 Notlar
 
+
 -Diyot seçimi boost devrelerinde kritik → forward recovery + ters toparlanma süresi kısa olmalıdır.
+
 -Endüktör Isat değeri iki kat güvenlik ile seçilmiştir (datasheet önerisi: ≥2.5 A).
+
 -SW düğümü (IC pin 4) çevresindeki bakırın genişliği EMI açısından minimize edilmiştir.
+
 -Tüm komponent 3D modelleri Celestial Altium Library veya üretici kütüphanelerinden alınmıştır.
 
 ---
