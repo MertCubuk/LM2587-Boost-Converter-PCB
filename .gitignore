@@ -1,0 +1,30 @@
+# Various Altium files
+*.PrjPCBStructure
+*.SchDocPreview
+*.PcbDocPreview
+__Previews/
+*.Dat
+*.REP
+*.TLT
+*.LOG
+*.log
+*.htm
+*.$$$
+
+# Useless dirs
+Project Outputs/
+Project Logs/
+Project Outputs for*/
+
+# History
+History/
+
+# Exports, but not manual ones
+exports/*
+!exports/manual/
+
+# Python stuff
+scripts/__pycache__/
+*.bak
+*.dw1
+*.dwl2
